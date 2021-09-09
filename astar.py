@@ -90,7 +90,7 @@ def runAlg(cur,tar):
         if (current.coords[1] + 1 < gridSize):
             neighbours.append(grid[current.coords[1] + 1][current.coords[0]])
 
-        print(len(openLst))
+        # print(len(openLst))
         for neighbour in neighbours:
             if(neighbour.closed == False and neighbour.wall == False):
                 neighbour.hCost = calcH(neighbour,tar)
