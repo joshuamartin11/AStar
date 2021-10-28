@@ -1,5 +1,6 @@
 # AStar
 Requires pygame 2.0.1
+
 Steps for running:
   1. Run the code
   2. Left click and drag to add walls.
